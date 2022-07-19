@@ -5,6 +5,8 @@ import exclamation from "../images/icon-error.svg";
 const Email = () => {
   const [isEmailWrong, setIsEmailWrong] = useState(false);
 
+  useEffect(() => {}, []);
+
   const readInputValue = (event) => {
     let email = event.target.value;
     if (email.includes("@")) {
