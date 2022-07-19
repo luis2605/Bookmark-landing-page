@@ -5,6 +5,7 @@ import Features from "./components/Features";
 import DownloadExtensions from "./components/DownloadExtensions";
 import FAQs from "./components/FAQs";
 import Email from "./components/Email";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <DownloadExtensions />
       <FAQs />
       <Email />
+      <Footer />
     </div>
   );
 };
